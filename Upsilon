@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Startup Company</title>
+  <link rel="stlesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    .hero {
+      background-image: url('pic1.jpg');
+      background-size: cover;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+    
+    .cta {
+      text-align: center;
+      margin: 50px 0;
+    }
+    
+    .cta a {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    
+    .features {
+      display: flex;
+      justify-content: center;
+      margin: 50px 0;
+    }
+    
+    .feature {
+      text-align: center;
+      margin: 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Zaza Stores</h1>
+    <p>We are revolutionizing the world with our innovative solutions.</p>
+  </header>
+
+  <section class="hero">
+    <h2>Transforming Ideas into Reality</h2>
+    <p>Discover the power of our groundbreaking products.</p>
+    <div class="cta">
+      <a href="#signup">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>ABOUT</h3>
+      <p>ZAZA STORES WAS FOUNDED IN THE THE YEAR 2020 WE ARE IMORTERS,
+        <br></br>
+        EXPORTERS AND DEALERS ON ALL KIND OF QUALITY BAGS.</p>
+    </div>
+    <div class="feature">
+      <h3>location</h3>
+      <p>shop 45 jabi ABUJA NIGERIA.</p>
+    </div>
+    <div class="feature">
+      <h3>mottor</h3>
+      <p>YOUR SATISFACTION IS OUR PRIORITY.</p>
+    </div>
+  </section>
+
+  <section id="signup">
+    <h2>Sign up for our newsletter</h2>
+    <p>Stay up to date with the latest news and updates.</p>
+    <form>
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+  <img src="pic2.jpg">
+  <img src="pic3.jpg">
+  <img src="pic1.jpg">
+
+  <footer>
+    <p>&copy;welcome to zaza stores,CART RIGHT!!!.</p>
+  </footer>
+</body>
+</html>
