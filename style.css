@@ -1,0 +1,54 @@
+<style>
+  /* Add your CSS styles here */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .hero {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .cta {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .cta a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 0 20px;
+  }
+</style>
